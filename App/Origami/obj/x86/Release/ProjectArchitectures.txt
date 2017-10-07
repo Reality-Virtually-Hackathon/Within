@@ -1,0 +1,4 @@
+C:\Users\natha_000\Documents\GitHub\Within\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\natha_000\Documents\GitHub\Within\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\natha_000\Documents\GitHub\Within\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\natha_000\Documents\GitHub\Within\App\Origami\Origami.csproj;x86
