@@ -7,7 +7,6 @@ public class ObjectToolsManager : MonoBehaviour
     // Called by GazeGestureManager when the user performs a Select gesture
     void OnSelect()
     {
-        Debug.Log("Move object");
 
         // On each Select gesture, toggle whether the user is in placing mode.
         placing = !placing;
@@ -23,6 +22,12 @@ public class ObjectToolsManager : MonoBehaviour
             SpatialMapping.Instance.DrawVisualMeshes = false;
         }
 
+    }
+
+    void OnMove()
+    {
+        Debug.Log("Moving!");
+        OnSelect();
     }
 
     void OnAnnotate()
@@ -45,7 +50,7 @@ public class ObjectToolsManager : MonoBehaviour
 
             RaycastHit hitInfo;
             if (Physics.Raycast(headPosition, gazeDirection, out hitInfo,
-                3f, SpatialMapping.PhysicsRaycastMask))
+                20f, SpatialMapping.PhysicsRaycastMask))
             {
                 // Move this object's parent object to
                 // where the raycast hit the Spatial Mapping mesh.

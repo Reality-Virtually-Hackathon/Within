@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 0fd5504eee81c4f48801d8513ee19a2a
+timeCreated: 1507483967
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: aluminum2:pCylinder3
+    100004: aluminum2:pCylinder4
+    100006: aluminum2:pCylinder5
+    100008: aluminum2:pSphere1
+    100010: aluminum2:pSphere2
+    100012: balloon:pCube1
+    100014: balloon:pSphere1
+    100016: Ca_Car2:pCube1
+    100018: Ca_Car2:pCylinder1
+    100020: Ca_Car2:pCylinder2
+    100022: Ca_Car2:transform3
+    100024: Ca_Car2:transform4
+    100026: Ca_Car2:transform5
+    100028: Ca_Car2:transform6
+    100030: Ca_Car2:transform7
+    100032: Ca_Car2:volumeLight1
+    100034: Ca_Car2:volumeLight1 1
+    100036: group1
+    100038: group2
+    100040: group3
+    100042: group4
+    100044: group5
+    100046: group6
+    100048: neQY:group1
+    100050: neQY:group2
+    100052: neQY:group4
+    100054: neQY:group4_neQY:pCube1
+    100056: neQY:group4_neQY:transform1
+    100058: neQY:group4_neQY:transform10
+    100060: neQY:group4_neQY:transform11
+    100062: neQY:group4_neQY:transform12
+    100064: neQY:group4_neQY:transform13
+    100066: neQY:group4_neQY:transform14
+    100068: neQY:group4_neQY:transform15
+    100070: neQY:group4_neQY:transform16
+    100072: neQY:group4_neQY:transform17
+    100074: neQY:group4_neQY:transform18
+    100076: neQY:group4_neQY:transform19
+    100078: neQY:group4_neQY:transform2
+    100080: neQY:group4_neQY:transform20
+    100082: neQY:group4_neQY:transform21
+    100084: neQY:group4_neQY:transform22
+    100086: neQY:group4_neQY:transform3
+    100088: neQY:group4_neQY:transform4
+    100090: neQY:group4_neQY:transform5
+    100092: neQY:group4_neQY:transform6
+    100094: neQY:group4_neQY:transform7
+    100096: neQY:group4_neQY:transform8
+    100098: neQY:group4_neQY:transform9
+    100100: neQY:group5
+    100102: neQY:Ne
+    100104: neQY:pCube1
+    100106: neQY:pCube1 1
+    100108: neQY:pCube1 2
+    100110: neQY:pCube1 3
+    100112: neQY:pCylinder1
+    100114: neQY:pCylinder1 1
+    100116: neQY:pCylinder1 2
+    100118: neQY:pCylinder1 3
+    100120: neQY:pCylinder2
+    100122: neQY:pCylinder2 1
+    100124: neQY:pCylinder2 2
+    100126: neQY:pCylinder2 3
+    100128: neQY:pCylinder3
+    100130: neQY:pCylinder3 1
+    100132: neQY:pCylinder3 2
+    100134: neQY:pCylinder3 3
+    100136: neQY:pCylinder4
+    100138: neQY:pCylinder4 1
+    100140: neQY:pCylinder4 2
+    100142: neQY:pCylinder4 3
+    100144: neQY:typeMesh3
+    100146: pCone2
+    100148: pCube1
+    100150: pCube10
+    100152: pCube11
+    100154: pCube12
+    100156: pCube2
+    100158: pCube3
+    100160: pCube4
+    100162: pCube5
+    100164: pCube6
+    100166: pCube7
+    100168: pCube8
+    100170: pCube9
+    100172: SodiumBicar:directionalLight1
+    100174: SodiumBicar:transform2
+    100176: SodiumBicar:transform3
+    100178: SodiumBicar:transform4
+    100180: SodiumBicar:transform5
+    100182: SodiumBicar:typeMesh1
+    100184: test_beaker:Mesh
+    100186: test_beaker:Mesh 1
+    100188: test_beaker:transform1
+    100190: test_beaker:transform2
+    100192: transform10
+    100194: transform11
+    100196: transform12
+    100198: transform13
+    100200: transform14
+    100202: transform15
+    100204: transform16
+    100206: transform17
+    100208: transform18
+    100210: transform19
+    100212: transform8
+    100214: transform9
+    100216: typeMesh2
+    100218: typeMesh3
+    100220: typeMesh3 1
+    100222: typeMesh4
+    100224: typeMesh5
+    100226: typeMesh6
+    100228: typeMesh7
+    400000: //RootNode
+    400002: aluminum2:pCylinder3
+    400004: aluminum2:pCylinder4
+    400006: aluminum2:pCylinder5
+    400008: aluminum2:pSphere1
+    400010: aluminum2:pSphere2
+    400012: balloon:pCube1
+    400014: balloon:pSphere1
+    400016: Ca_Car2:pCube1
+    400018: Ca_Car2:pCylinder1
+    400020: Ca_Car2:pCylinder2
+    400022: Ca_Car2:transform3
+    400024: Ca_Car2:transform4
+    400026: Ca_Car2:transform5
+    400028: Ca_Car2:transform6
+    400030: Ca_Car2:transform7
+    400032: Ca_Car2:volumeLight1
+    400034: Ca_Car2:volumeLight1 1
+    400036: group1
+    400038: group2
+    400040: group3
+    400042: group4
+    400044: group5
+    400046: group6
+    400048: neQY:group1
+    400050: neQY:group2
+    400052: neQY:group4
+    400054: neQY:group4_neQY:pCube1
+    400056: neQY:group4_neQY:transform1
+    400058: neQY:group4_neQY:transform10
+    400060: neQY:group4_neQY:transform11
+    400062: neQY:group4_neQY:transform12
+    400064: neQY:group4_neQY:transform13
+    400066: neQY:group4_neQY:transform14
+    400068: neQY:group4_neQY:transform15
+    400070: neQY:group4_neQY:transform16
+    400072: neQY:group4_neQY:transform17
+    400074: neQY:group4_neQY:transform18
+    400076: neQY:group4_neQY:transform19
+    400078: neQY:group4_neQY:transform2
+    400080: neQY:group4_neQY:transform20
+    400082: neQY:group4_neQY:transform21
+    400084: neQY:group4_neQY:transform22
+    400086: neQY:group4_neQY:transform3
+    400088: neQY:group4_neQY:transform4
+    400090: neQY:group4_neQY:transform5
+    400092: neQY:group4_neQY:transform6
+    400094: neQY:group4_neQY:transform7
+    400096: neQY:group4_neQY:transform8
+    400098: neQY:group4_neQY:transform9
+    400100: neQY:group5
+    400102: neQY:Ne
+    400104: neQY:pCube1
+    400106: neQY:pCube1 1
+    400108: neQY:pCube1 2
+    400110: neQY:pCube1 3
+    400112: neQY:pCylinder1
+    400114: neQY:pCylinder1 1
+    400116: neQY:pCylinder1 2
+    400118: neQY:pCylinder1 3
+    400120: neQY:pCylinder2
+    400122: neQY:pCylinder2 1
+    400124: neQY:pCylinder2 2
+    400126: neQY:pCylinder2 3
+    400128: neQY:pCylinder3
+    400130: neQY:pCylinder3 1
+    400132: neQY:pCylinder3 2
+    400134: neQY:pCylinder3 3
+    400136: neQY:pCylinder4
+    400138: neQY:pCylinder4 1
+    400140: neQY:pCylinder4 2
+    400142: neQY:pCylinder4 3
+    400144: neQY:typeMesh3
+    400146: pCone2
+    400148: pCube1
+    400150: pCube10
+    400152: pCube11
+    400154: pCube12
+    400156: pCube2
+    400158: pCube3
+    400160: pCube4
+    400162: pCube5
+    400164: pCube6
+    400166: pCube7
+    400168: pCube8
+    400170: pCube9
+    400172: SodiumBicar:directionalLight1
+    400174: SodiumBicar:transform2
+    400176: SodiumBicar:transform3
+    400178: SodiumBicar:transform4
+    400180: SodiumBicar:transform5
+    400182: SodiumBicar:typeMesh1
+    400184: test_beaker:Mesh
+    400186: test_beaker:Mesh 1
+    400188: test_beaker:transform1
+    400190: test_beaker:transform2
+    400192: transform10
+    400194: transform11
+    400196: transform12
+    400198: transform13
+    400200: transform14
+    400202: transform15
+    400204: transform16
+    400206: transform17
+    400208: transform18
+    400210: transform19
+    400212: transform8
+    400214: transform9
+    400216: typeMesh2
+    400218: typeMesh3
+    400220: typeMesh3 1
+    400222: typeMesh4
+    400224: typeMesh5
+    400226: typeMesh6
+    400228: typeMesh7
+    2300000: Ca_Car2:volumeLight1
+    2300002: neQY:group4_neQY:pCube1
+    2300004: pCube10
+    2300006: pCube11
+    2300008: pCube12
+    2300010: pCube7
+    2300012: pCube8
+    2300014: pCube9
+    2300016: SodiumBicar:directionalLight1
+    2300018: test_beaker:Mesh
+    2300020: typeMesh3
+    2300022: typeMesh7
+    3300000: Ca_Car2:volumeLight1
+    3300002: neQY:group4_neQY:pCube1
+    3300004: pCube10
+    3300006: pCube11
+    3300008: pCube12
+    3300010: pCube7
+    3300012: pCube8
+    3300014: pCube9
+    3300016: SodiumBicar:directionalLight1
+    3300018: test_beaker:Mesh
+    3300020: typeMesh3
+    3300022: typeMesh7
+    4300000: pCube7
+    4300002: pCube8
+    4300004: pCube9
+    4300006: pCube10
+    4300008: pCube11
+    4300010: pCube12
+    4300012: SodiumBicar:directionalLight1
+    4300014: typeMesh7
+    4300016: typeMesh3
+    4300018: neQY:group4_neQY:pCube1
+    4300020: test_beaker:Mesh
+    4300022: Ca_Car2:volumeLight1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

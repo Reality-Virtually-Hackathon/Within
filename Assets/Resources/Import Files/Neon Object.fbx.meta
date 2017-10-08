@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 938adffe2259ae74e834de03878385f8
+timeCreated: 1507477127
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: balloon:pCube1
+    100002: group1
+    100004: group3
+    100006: group4
+    100008: group5
+    100010: Hemi
+    100012: High_Poly_Round_001
+    100014: Lithium
+    100016: //RootNode
+    100018: neQY:group1
+    100020: neQY:group1_neQY:pCylinder2
+    100022: neQY:group1_neQY:transform1
+    100024: neQY:group1_neQY:transform10
+    100026: neQY:group1_neQY:transform11
+    100028: neQY:group1_neQY:transform12
+    100030: neQY:group1_neQY:transform13
+    100032: neQY:group1_neQY:transform14
+    100034: neQY:group1_neQY:transform15
+    100036: neQY:group1_neQY:transform16
+    100038: neQY:group1_neQY:transform17
+    100040: neQY:group1_neQY:transform18
+    100042: neQY:group1_neQY:transform19
+    100044: neQY:group1_neQY:transform2
+    100046: neQY:group1_neQY:transform20
+    100048: neQY:group1_neQY:transform3
+    100050: neQY:group1_neQY:transform4
+    100052: neQY:group1_neQY:transform5
+    100054: neQY:group1_neQY:transform6
+    100056: neQY:group1_neQY:transform7
+    100058: neQY:group1_neQY:transform8
+    100060: neQY:group1_neQY:transform9
+    100062: neQY:group2
+    100064: neQY:group4
+    100066: neQY:group5
+    100068: neQY:Ne
+    100070: neQY:pCube1
+    100072: neQY:pCube1 1
+    100074: neQY:pCube1 2
+    100076: neQY:pCube1 3
+    100078: neQY:pCylinder1
+    100080: neQY:pCylinder1 1
+    100082: neQY:pCylinder1 2
+    100084: neQY:pCylinder1 3
+    100086: neQY:pCylinder2
+    100088: neQY:pCylinder2 1
+    100090: neQY:pCylinder2 2
+    100092: neQY:pCylinder2 3
+    100094: neQY:pCylinder3
+    100096: neQY:pCylinder3 1
+    100098: neQY:pCylinder3 2
+    100100: neQY:pCylinder3 3
+    100102: neQY:pCylinder4
+    100104: neQY:pCylinder4 1
+    100106: neQY:pCylinder4 2
+    100108: neQY:pCylinder4 3
+    100110: pCube1
+    100112: pCylinder1
+    100114: pCylinder2
+    100116: pCylinder2 1
+    100118: Point
+    100120: transform10
+    100122: transform11
+    100124: transform12
+    100126: transform13
+    100128: transform14
+    100130: transform15
+    100132: transform16
+    100134: transform17
+    100136: transform5
+    100138: transform6
+    100140: transform7
+    100142: transform8
+    100144: transform9
+    100146: typeMesh1
+    100148: typeMesh2
+    100150: typeMesh2 1
+    100152: typeMesh4
+    400000: balloon:pCube1
+    400002: group1
+    400004: group3
+    400006: group4
+    400008: group5
+    400010: Hemi
+    400012: High_Poly_Round_001
+    400014: Lithium
+    400016: //RootNode
+    400018: neQY:group1
+    400020: neQY:group1_neQY:pCylinder2
+    400022: neQY:group1_neQY:transform1
+    400024: neQY:group1_neQY:transform10
+    400026: neQY:group1_neQY:transform11
+    400028: neQY:group1_neQY:transform12
+    400030: neQY:group1_neQY:transform13
+    400032: neQY:group1_neQY:transform14
+    400034: neQY:group1_neQY:transform15
+    400036: neQY:group1_neQY:transform16
+    400038: neQY:group1_neQY:transform17
+    400040: neQY:group1_neQY:transform18
+    400042: neQY:group1_neQY:transform19
+    400044: neQY:group1_neQY:transform2
+    400046: neQY:group1_neQY:transform20
+    400048: neQY:group1_neQY:transform3
+    400050: neQY:group1_neQY:transform4
+    400052: neQY:group1_neQY:transform5
+    400054: neQY:group1_neQY:transform6
+    400056: neQY:group1_neQY:transform7
+    400058: neQY:group1_neQY:transform8
+    400060: neQY:group1_neQY:transform9
+    400062: neQY:group2
+    400064: neQY:group4
+    400066: neQY:group5
+    400068: neQY:Ne
+    400070: neQY:pCube1
+    400072: neQY:pCube1 1
+    400074: neQY:pCube1 2
+    400076: neQY:pCube1 3
+    400078: neQY:pCylinder1
+    400080: neQY:pCylinder1 1
+    400082: neQY:pCylinder1 2
+    400084: neQY:pCylinder1 3
+    400086: neQY:pCylinder2
+    400088: neQY:pCylinder2 1
+    400090: neQY:pCylinder2 2
+    400092: neQY:pCylinder2 3
+    400094: neQY:pCylinder3
+    400096: neQY:pCylinder3 1
+    400098: neQY:pCylinder3 2
+    400100: neQY:pCylinder3 3
+    400102: neQY:pCylinder4
+    400104: neQY:pCylinder4 1
+    400106: neQY:pCylinder4 2
+    400108: neQY:pCylinder4 3
+    400110: pCube1
+    400112: pCylinder1
+    400114: pCylinder2
+    400116: pCylinder2 1
+    400118: Point
+    400120: transform10
+    400122: transform11
+    400124: transform12
+    400126: transform13
+    400128: transform14
+    400130: transform15
+    400132: transform16
+    400134: transform17
+    400136: transform5
+    400138: transform6
+    400140: transform7
+    400142: transform8
+    400144: transform9
+    400146: typeMesh1
+    400148: typeMesh2
+    400150: typeMesh2 1
+    400152: typeMesh4
+    2300000: balloon:pCube1
+    2300002: typeMesh2
+    3300000: balloon:pCube1
+    3300002: typeMesh2
+    4300000: balloon:pCube1
+    4300002: typeMesh2
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

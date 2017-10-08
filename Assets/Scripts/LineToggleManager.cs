@@ -69,6 +69,6 @@ public class LineToggleManager : MonoBehaviour
         line1.endWidth = 0.04f;
 
         line1.materials[0] = Resources.Load("Scripts/Materials/anisotropic1.mat", typeof(Material)) as Material;
-        line1.startColor = Color.blue;
+        line1.material.color = Color.blue;
     }
 }

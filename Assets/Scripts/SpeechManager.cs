@@ -11,13 +11,13 @@ public class SpeechManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        keywords.Add("Reset Object", () =>
+        keywords.Add("Show Info", () =>
         {
             var focusObject = GazeGestureManager.Instance.FocusedObject;
             if (focusObject != null)
             {
                 // Call the OnMove method on just the focused object.
-                focusObject.SendMessage("OnReset", SendMessageOptions.DontRequireReceiver);
+                focusObject.SendMessage("OnAnnotate", SendMessageOptions.DontRequireReceiver);
             }
         });
 
@@ -27,7 +27,7 @@ public class SpeechManager : MonoBehaviour
             if (focusObject != null)
             {
                 // Call the OnMove method on just the focused object.
-                focusObject.SendMessage("OnSelect", SendMessageOptions.DontRequireReceiver);
+                focusObject.SendMessage("OnMove", SendMessageOptions.DontRequireReceiver);
             }
         });
 
@@ -65,11 +65,29 @@ public class SpeechManager : MonoBehaviour
 
         keywords.Add("Create Potassium", () =>
         {
-            // Should call OnCreate on the Aluminum component in the menu
+            // Should call OnCreate on the Potassium component in the menu
             GameObject.Find("Menu/Potassium Icon").SendMessage("OnCreate");
         });
 
-        keywords.Add("Show lines", () =>
+        keywords.Add("Create Carbon", () =>
+        {
+            // Should call OnCreate on the Carbon component in the menu
+            GameObject.Find("Menu/Carbon Icon").SendMessage("OnCreate");
+        });
+
+        keywords.Add("Create Helium", () =>
+        {
+            // Should call OnCreate on the Helium component in the menu
+            GameObject.Find("Menu/Helium Icon").SendMessage("OnCreate");
+        });
+
+        keywords.Add("Show Lines", () =>
+        {
+            // Should call OnCreate on the Aluminum component in the menu
+            GameObject.Find("Menu/LineManager").SendMessage("OnCreate");
+        });
+
+        keywords.Add("Hide Lines", () =>
         {
             // Should call OnCreate on the Aluminum component in the menu
             GameObject.Find("Menu/LineManager").SendMessage("OnCreate");

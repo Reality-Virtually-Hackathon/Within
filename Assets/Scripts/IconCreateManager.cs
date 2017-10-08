@@ -27,7 +27,7 @@ public class IconCreateManager : MonoBehaviour
             var headPosition = Camera.main.transform.position;
             var gazeDirection = Camera.main.transform.forward;
 
-            selectedObject.transform.position = headPosition + gazeDirection/2;
+            selectedObject.transform.position = headPosition + gazeDirection;
 
             // Rotate this object's parent object to face the user.
             Quaternion toQuat = Camera.main.transform.localRotation;
@@ -37,6 +37,9 @@ public class IconCreateManager : MonoBehaviour
             
             //Debug toggling of objects if necessary
             selectedObject.transform.parent = GameObject.Find("Object Collection").transform;
+
+            selectedObject.SendMessage("OnSelect");
+
         }
 
         else
