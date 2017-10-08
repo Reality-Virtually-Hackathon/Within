@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\IconCreateManager.cs" />
     <Compile Include="Assets\Scripts\LineToggleManager.cs" />
     <Compile Include="Assets\Scripts\ObjectToolsManager.cs" />
+    <Compile Include="Assets\Scripts\QuizManager.cs" />
     <Compile Include="Assets\Scripts\SpeechManager.cs" />
     <Compile Include="Assets\Scripts\SphereCommands.cs" />
     <Compile Include="Assets\Scripts\SphereSounds.cs" />

@@ -8,37 +8,27 @@ public class ObjectToolsManager : MonoBehaviour
     void OnSelect()
     {
         Debug.Log("Move object");
+
         // On each Select gesture, toggle whether the user is in placing mode.
         placing = !placing;
 
         // If the user is in placing mode, display the spatial mapping mesh.
         if (placing)
         {
-            SpatialMapping.Instance.DrawVisualMeshes = true;
+            SpatialMapping.Instance.DrawVisualMeshes = false;
         }
         // If the user is not in placing mode, hide the spatial mapping mesh.
         else
         {
             SpatialMapping.Instance.DrawVisualMeshes = false;
         }
+
     }
 
     void OnAnnotate()
     {
         Debug.Log("Annotation!!");
-        // On each Select gesture, toggle whether the user is in placing mode.
-        placing = !placing;
 
-        // If the user is in placing mode, display the spatial mapping mesh.
-        if (placing)
-        {
-            SpatialMapping.Instance.DrawVisualMeshes = true;
-        }
-        // If the user is not in placing mode, hide the spatial mapping mesh.
-        else
-        {
-            SpatialMapping.Instance.DrawVisualMeshes = false;
-        }
     }
 
     // Update is called once per frame
@@ -55,17 +45,17 @@ public class ObjectToolsManager : MonoBehaviour
 
             RaycastHit hitInfo;
             if (Physics.Raycast(headPosition, gazeDirection, out hitInfo,
-                30.0f, SpatialMapping.PhysicsRaycastMask))
+                3f, SpatialMapping.PhysicsRaycastMask))
             {
                 // Move this object's parent object to
                 // where the raycast hit the Spatial Mapping mesh.
-                this.transform.parent.position = hitInfo.point;
+                gameObject.transform.position = hitInfo.point;
 
                 // Rotate this object's parent object to face the user.
                 Quaternion toQuat = Camera.main.transform.localRotation;
                 toQuat.x = 0;
                 toQuat.z = 0;
-                this.transform.parent.rotation = toQuat;
+                gameObject.transform.rotation = toQuat;
             }
         }
     }

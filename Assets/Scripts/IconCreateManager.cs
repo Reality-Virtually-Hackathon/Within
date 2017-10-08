@@ -2,17 +2,10 @@
 
 public class IconCreateManager : MonoBehaviour
 {
-    Vector3 originalPosition;
+
     string objName;
     GameObject selectedObject;
     Bounds _bounds;
-
-    // Use this for initialization
-    void Start()
-    {
-        // Grab the original local position of the sphere when the app starts.
-        originalPosition = this.transform.localPosition;
-    }
 
     // Called by GazeGestureManager when the user performs a Select gesture
     void OnSelect()
@@ -21,21 +14,43 @@ public class IconCreateManager : MonoBehaviour
         selectedObject = GameObject.Find(objName + " Object(Clone)");
         if (selectedObject == null)
         {
-            Instantiate(Resources.Load(objName + " Object"));
-            selectedObject = GameObject.Find(objName + " Object(Clone)");
-            selectedObject.AddComponent<TapToPlace>();
+            selectedObject = (GameObject) Instantiate(Resources.Load(objName + " Object"));
+            // selectedObject = GameObject.Find(objName + " Object(Clone)");
+            // selectedObject.AddComponent<TapToPlace>();
+            selectedObject.AddComponent<ObjectToolsManager>();
             BoxCollider collider = selectedObject.AddComponent<BoxCollider>();
+            calculateBounds();
             collider.center = _bounds.center;
-            collider.size = new Vector3(0.1f,0.1f,0.1f);
-            Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red);
-            selectedObject.transform.position = Camera.main.transform.forward/2;
-            selectedObject.transform.parent = GameObject.Find("Menu").transform;
+            collider.size = _bounds.size;
+
+            // Do a raycast into the world that will only hit the Spatial Mapping mesh.
+            var headPosition = Camera.main.transform.position;
+            var gazeDirection = Camera.main.transform.forward;
+
+            selectedObject.transform.position = headPosition + gazeDirection/2;
+
+            // Rotate this object's parent object to face the user.
+            Quaternion toQuat = Camera.main.transform.localRotation;
+            toQuat.x = 0;
+            toQuat.z = 0;
+            selectedObject.transform.rotation = toQuat;
+            
+            //Debug toggling of objects if necessary
+            selectedObject.transform.parent = GameObject.Find("Object Collection").transform;
         }
 
         else
         {
-            Destroy(selectedObject);
-            selectedObject.SetActive(false);
+            Debug.Log("Object found!!");
+            if (selectedObject.activeSelf)
+            {                 
+                selectedObject.SetActive(false);
+            }
+            else
+            {
+                selectedObject.SetActive(true);
+            }
+                
         }
 
     }
@@ -44,13 +59,14 @@ public class IconCreateManager : MonoBehaviour
     void OnCreate()
     {
         // Just do the same logic as a Select gesture.
+        Debug.Log("CALLED CREATE BY VOICE");
         OnSelect();
     }
 
     void OnAnnotate()
     {
-        // Just do the same logic as a Select gesture.
-        Debug.Log("IT WORKS");
+        // When "annotate object" is recognized from voice dictation
+        Debug.Log("ANNOTATE HERE WORKS");
     }
 
     void calculateBounds()

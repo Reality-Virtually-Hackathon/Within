@@ -19,6 +19,7 @@ public class GazeGestureManager : MonoBehaviour
         recognizer = new GestureRecognizer();
         recognizer.TappedEvent += (source, tapCount, ray) =>
         {
+            GameObject.Find("Menu").GetComponent<AudioSource>().Play();
             // Send an OnSelect message to the focused object and its ancestors.
             if (FocusedObject != null)
             {

@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 844905a34e436ed4083c976075ae0df6
+timeCreated: 1507428371
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: aluminum1:transform5
+    100002: aluminum1:transform6
+    100004: aluminum1:transform7
+    100006: aluminum1:transform8
+    100008: aluminum2:group1
+    100010: aluminum2:Hemi
+    100012: aluminum2:High_Poly_Round_001
+    100014: aluminum2:Lithium
+    100016: aluminum2:pCube1
+    100018: aluminum2:pCylinder1
+    100020: aluminum2:pCylinder2
+    100022: aluminum2:pCylinder2 1
+    100024: aluminum2:pCylinder3
+    100026: aluminum2:pCylinder4
+    100028: aluminum2:pCylinder5
+    100030: aluminum2:Point
+    100032: aluminum2:pSphere1
+    100034: aluminum2:pSphere2
+    100036: aluminum2:transform10
+    100038: aluminum2:transform11
+    100040: aluminum2:transform12
+    100042: aluminum2:transform13
+    100044: aluminum2:transform5
+    100046: aluminum2:transform6
+    100048: aluminum2:transform7
+    100050: aluminum2:transform8
+    100052: aluminum2:transform9
+    100054: aluminum2:typeMesh1
+    100056: aluminum2:typeMesh2
+    100058: aluminum2:typeMesh3
+    100060: aluminum2:typeMesh4
+    100062: aluminum:transform5
+    100064: aluminum:transform6
+    100066: aluminum:transform7
+    100068: aluminum:transform8
+    100070: back
+    100072: balloon:MASH1_ReproMesh
+    100074: balloon:MASH1_ReproMesh_MeshPart0
+    100076: balloon:MASH1_ReproMesh_MeshPart1
+    100078: balloon:MASH1_ReproMesh_MeshPart2
+    100080: balloon:pCube1
+    100082: balloon:pSphere1
+    100084: Ca_Car2:pCube1
+    100086: Ca_Car2:pCylinder1
+    100088: Ca_Car2:pCylinder2
+    100090: Ca_Car2:transform1
+    100092: Ca_Car2:transform2
+    100094: Ca_Car2:volumeLight1
+    100096: //RootNode
+    100098: group1
+    100100: group2
+    100102: group3
+    100104: group4
+    100106: group5
+    100108: group6
+    100110: left
+    100112: neQY:group1
+    100114: neQY:group2
+    100116: neQY:group4
+    100118: neQY:group5
+    100120: neQY:Ne
+    100122: neQY:pCube1
+    100124: neQY:pCube1 1
+    100126: neQY:pCube1 2
+    100128: neQY:pCube1 3
+    100130: neQY:pCylinder1
+    100132: neQY:pCylinder1 1
+    100134: neQY:pCylinder1 2
+    100136: neQY:pCylinder1 3
+    100138: neQY:pCylinder2
+    100140: neQY:pCylinder2 1
+    100142: neQY:pCylinder2 2
+    100144: neQY:pCylinder2 3
+    100146: neQY:pCylinder3
+    100148: neQY:pCylinder3 1
+    100150: neQY:pCylinder3 2
+    100152: neQY:pCylinder3 3
+    100154: neQY:pCylinder4
+    100156: neQY:pCylinder4 1
+    100158: neQY:pCylinder4 2
+    100160: neQY:pCylinder4 3
+    100162: neQY:typeMesh2
+    100164: neQY:typeMesh3
+    100166: pCone1
+    100168: pCone2
+    100170: pCube1
+    100172: pCube10
+    100174: pCube11
+    100176: pCube12
+    100178: pCube2
+    100180: pCube3
+    100182: pCube4
+    100184: pCube5
+    100186: pCube6
+    100188: pCube7
+    100190: pCube8
+    100192: pCube9
+    100194: persp1
+    100196: SodiumBicar:directionalLight1
+    100198: SodiumBicar:MASH1_ReproMesh
+    100200: SodiumBicar:MASH1_ReproMesh_MeshPart0
+    100202: SodiumBicar:MASH1_ReproMesh_MeshPart1
+    100204: SodiumBicar:MASH1_ReproMesh_MeshPart10
+    100206: SodiumBicar:MASH1_ReproMesh_MeshPart11
+    100208: SodiumBicar:MASH1_ReproMesh_MeshPart12
+    100210: SodiumBicar:MASH1_ReproMesh_MeshPart13
+    100212: SodiumBicar:MASH1_ReproMesh_MeshPart2
+    100214: SodiumBicar:MASH1_ReproMesh_MeshPart3
+    100216: SodiumBicar:MASH1_ReproMesh_MeshPart4
+    100218: SodiumBicar:MASH1_ReproMesh_MeshPart5
+    100220: SodiumBicar:MASH1_ReproMesh_MeshPart6
+    100222: SodiumBicar:MASH1_ReproMesh_MeshPart7
+    100224: SodiumBicar:MASH1_ReproMesh_MeshPart8
+    100226: SodiumBicar:MASH1_ReproMesh_MeshPart9
+    100228: SodiumBicar:pCube1
+    100230: SodiumBicar:pCube1_MeshPart0
+    100232: SodiumBicar:pCube1_MeshPart1
+    100234: SodiumBicar:pCube1_MeshPart2
+    100236: SodiumBicar:pCube1_MeshPart3
+    100238: SodiumBicar:pCube2
+    100240: SodiumBicar:persp1
+    100242: SodiumBicar:transform1
+    100244: SodiumBicar:typeMesh1
+    100246: transform1
+    100248: transform2
+    100250: transform3
+    100252: transform4
+    100254: transform5
+    100256: typeMesh2
+    100258: typeMesh3
+    100260: typeMesh4
+    100262: typeMesh5
+    400000: aluminum1:transform5
+    400002: aluminum1:transform6
+    400004: aluminum1:transform7
+    400006: aluminum1:transform8
+    400008: aluminum2:group1
+    400010: aluminum2:Hemi
+    400012: aluminum2:High_Poly_Round_001
+    400014: aluminum2:Lithium
+    400016: aluminum2:pCube1
+    400018: aluminum2:pCylinder1
+    400020: aluminum2:pCylinder2
+    400022: aluminum2:pCylinder2 1
+    400024: aluminum2:pCylinder3
+    400026: aluminum2:pCylinder4
+    400028: aluminum2:pCylinder5
+    400030: aluminum2:Point
+    400032: aluminum2:pSphere1
+    400034: aluminum2:pSphere2
+    400036: aluminum2:transform10
+    400038: aluminum2:transform11
+    400040: aluminum2:transform12
+    400042: aluminum2:transform13
+    400044: aluminum2:transform5
+    400046: aluminum2:transform6
+    400048: aluminum2:transform7
+    400050: aluminum2:transform8
+    400052: aluminum2:transform9
+    400054: aluminum2:typeMesh1
+    400056: aluminum2:typeMesh2
+    400058: aluminum2:typeMesh3
+    400060: aluminum2:typeMesh4
+    400062: aluminum:transform5
+    400064: aluminum:transform6
+    400066: aluminum:transform7
+    400068: aluminum:transform8
+    400070: back
+    400072: balloon:MASH1_ReproMesh
+    400074: balloon:MASH1_ReproMesh_MeshPart0
+    400076: balloon:MASH1_ReproMesh_MeshPart1
+    400078: balloon:MASH1_ReproMesh_MeshPart2
+    400080: balloon:pCube1
+    400082: balloon:pSphere1
+    400084: Ca_Car2:pCube1
+    400086: Ca_Car2:pCylinder1
+    400088: Ca_Car2:pCylinder2
+    400090: Ca_Car2:transform1
+    400092: Ca_Car2:transform2
+    400094: Ca_Car2:volumeLight1
+    400096: //RootNode
+    400098: group1
+    400100: group2
+    400102: group3
+    400104: group4
+    400106: group5
+    400108: group6
+    400110: left
+    400112: neQY:group1
+    400114: neQY:group2
+    400116: neQY:group4
+    400118: neQY:group5
+    400120: neQY:Ne
+    400122: neQY:pCube1
+    400124: neQY:pCube1 1
+    400126: neQY:pCube1 2
+    400128: neQY:pCube1 3
+    400130: neQY:pCylinder1
+    400132: neQY:pCylinder1 1
+    400134: neQY:pCylinder1 2
+    400136: neQY:pCylinder1 3
+    400138: neQY:pCylinder2
+    400140: neQY:pCylinder2 1
+    400142: neQY:pCylinder2 2
+    400144: neQY:pCylinder2 3
+    400146: neQY:pCylinder3
+    400148: neQY:pCylinder3 1
+    400150: neQY:pCylinder3 2
+    400152: neQY:pCylinder3 3
+    400154: neQY:pCylinder4
+    400156: neQY:pCylinder4 1
+    400158: neQY:pCylinder4 2
+    400160: neQY:pCylinder4 3
+    400162: neQY:typeMesh2
+    400164: neQY:typeMesh3
+    400166: pCone1
+    400168: pCone2
+    400170: pCube1
+    400172: pCube10
+    400174: pCube11
+    400176: pCube12
+    400178: pCube2
+    400180: pCube3
+    400182: pCube4
+    400184: pCube5
+    400186: pCube6
+    400188: pCube7
+    400190: pCube8
+    400192: pCube9
+    400194: persp1
+    400196: SodiumBicar:directionalLight1
+    400198: SodiumBicar:MASH1_ReproMesh
+    400200: SodiumBicar:MASH1_ReproMesh_MeshPart0
+    400202: SodiumBicar:MASH1_ReproMesh_MeshPart1
+    400204: SodiumBicar:MASH1_ReproMesh_MeshPart10
+    400206: SodiumBicar:MASH1_ReproMesh_MeshPart11
+    400208: SodiumBicar:MASH1_ReproMesh_MeshPart12
+    400210: SodiumBicar:MASH1_ReproMesh_MeshPart13
+    400212: SodiumBicar:MASH1_ReproMesh_MeshPart2
+    400214: SodiumBicar:MASH1_ReproMesh_MeshPart3
+    400216: SodiumBicar:MASH1_ReproMesh_MeshPart4
+    400218: SodiumBicar:MASH1_ReproMesh_MeshPart5
+    400220: SodiumBicar:MASH1_ReproMesh_MeshPart6
+    400222: SodiumBicar:MASH1_ReproMesh_MeshPart7
+    400224: SodiumBicar:MASH1_ReproMesh_MeshPart8
+    400226: SodiumBicar:MASH1_ReproMesh_MeshPart9
+    400228: SodiumBicar:pCube1
+    400230: SodiumBicar:pCube1_MeshPart0
+    400232: SodiumBicar:pCube1_MeshPart1
+    400234: SodiumBicar:pCube1_MeshPart2
+    400236: SodiumBicar:pCube1_MeshPart3
+    400238: SodiumBicar:pCube2
+    400240: SodiumBicar:persp1
+    400242: SodiumBicar:transform1
+    400244: SodiumBicar:typeMesh1
+    400246: transform1
+    400248: transform2
+    400250: transform3
+    400252: transform4
+    400254: transform5
+    400256: typeMesh2
+    400258: typeMesh3
+    400260: typeMesh4
+    400262: typeMesh5
+    2300000: aluminum2:pCube1
+    2300002: aluminum2:pCylinder3
+    2300004: aluminum2:pCylinder4
+    2300006: aluminum2:pCylinder5
+    2300008: aluminum2:pSphere1
+    2300010: aluminum2:pSphere2
+    2300012: aluminum2:typeMesh1
+    2300014: aluminum2:typeMesh2
+    2300016: aluminum2:typeMesh3
+    2300018: balloon:MASH1_ReproMesh_MeshPart0
+    2300020: balloon:MASH1_ReproMesh_MeshPart1
+    2300022: balloon:MASH1_ReproMesh_MeshPart2
+    2300024: balloon:pCube1
+    2300026: balloon:pSphere1
+    2300028: Ca_Car2:pCube1
+    2300030: Ca_Car2:pCylinder1
+    2300032: Ca_Car2:pCylinder2
+    2300034: neQY:pCube1
+    2300036: neQY:pCube1 1
+    2300038: neQY:pCube1 2
+    2300040: neQY:pCube1 3
+    2300042: neQY:pCylinder1
+    2300044: neQY:pCylinder1 1
+    2300046: neQY:pCylinder1 2
+    2300048: neQY:pCylinder1 3
+    2300050: neQY:pCylinder2
+    2300052: neQY:pCylinder2 1
+    2300054: neQY:pCylinder2 2
+    2300056: neQY:pCylinder2 3
+    2300058: neQY:pCylinder3
+    2300060: neQY:pCylinder3 1
+    2300062: neQY:pCylinder3 2
+    2300064: neQY:pCylinder3 3
+    2300066: neQY:pCylinder4
+    2300068: neQY:pCylinder4 1
+    2300070: neQY:pCylinder4 2
+    2300072: neQY:pCylinder4 3
+    2300074: neQY:typeMesh2
+    2300076: neQY:typeMesh3
+    2300078: pCone1
+    2300080: pCone2
+    2300082: pCube1
+    2300084: pCube10
+    2300086: pCube11
+    2300088: pCube12
+    2300090: pCube2
+    2300092: pCube3
+    2300094: pCube4
+    2300096: pCube5
+    2300098: pCube6
+    2300100: pCube7
+    2300102: pCube8
+    2300104: pCube9
+    2300106: SodiumBicar:MASH1_ReproMesh_MeshPart0
+    2300108: SodiumBicar:MASH1_ReproMesh_MeshPart1
+    2300110: SodiumBicar:MASH1_ReproMesh_MeshPart10
+    2300112: SodiumBicar:MASH1_ReproMesh_MeshPart11
+    2300114: SodiumBicar:MASH1_ReproMesh_MeshPart12
+    2300116: SodiumBicar:MASH1_ReproMesh_MeshPart13
+    2300118: SodiumBicar:MASH1_ReproMesh_MeshPart2
+    2300120: SodiumBicar:MASH1_ReproMesh_MeshPart3
+    2300122: SodiumBicar:MASH1_ReproMesh_MeshPart4
+    2300124: SodiumBicar:MASH1_ReproMesh_MeshPart5
+    2300126: SodiumBicar:MASH1_ReproMesh_MeshPart6
+    2300128: SodiumBicar:MASH1_ReproMesh_MeshPart7
+    2300130: SodiumBicar:MASH1_ReproMesh_MeshPart8
+    2300132: SodiumBicar:MASH1_ReproMesh_MeshPart9
+    2300134: SodiumBicar:pCube1_MeshPart0
+    2300136: SodiumBicar:pCube1_MeshPart1
+    2300138: SodiumBicar:pCube1_MeshPart2
+    2300140: SodiumBicar:pCube1_MeshPart3
+    2300142: SodiumBicar:pCube2
+    2300144: SodiumBicar:typeMesh1
+    2300146: typeMesh2
+    2300148: typeMesh3
+    2300150: typeMesh4
+    2300152: typeMesh5
+    3300000: aluminum2:pCube1
+    3300002: aluminum2:pCylinder3
+    3300004: aluminum2:pCylinder4
+    3300006: aluminum2:pCylinder5
+    3300008: aluminum2:pSphere1
+    3300010: aluminum2:pSphere2
+    3300012: aluminum2:typeMesh1
+    3300014: aluminum2:typeMesh2
+    3300016: aluminum2:typeMesh3
+    3300018: balloon:MASH1_ReproMesh_MeshPart0
+    3300020: balloon:MASH1_ReproMesh_MeshPart1
+    3300022: balloon:MASH1_ReproMesh_MeshPart2
+    3300024: balloon:pCube1
+    3300026: balloon:pSphere1
+    3300028: Ca_Car2:pCube1
+    3300030: Ca_Car2:pCylinder1
+    3300032: Ca_Car2:pCylinder2
+    3300034: neQY:pCube1
+    3300036: neQY:pCube1 1
+    3300038: neQY:pCube1 2
+    3300040: neQY:pCube1 3
+    3300042: neQY:pCylinder1
+    3300044: neQY:pCylinder1 1
+    3300046: neQY:pCylinder1 2
+    3300048: neQY:pCylinder1 3
+    3300050: neQY:pCylinder2
+    3300052: neQY:pCylinder2 1
+    3300054: neQY:pCylinder2 2
+    3300056: neQY:pCylinder2 3
+    3300058: neQY:pCylinder3
+    3300060: neQY:pCylinder3 1
+    3300062: neQY:pCylinder3 2
+    3300064: neQY:pCylinder3 3
+    3300066: neQY:pCylinder4
+    3300068: neQY:pCylinder4 1
+    3300070: neQY:pCylinder4 2
+    3300072: neQY:pCylinder4 3
+    3300074: neQY:typeMesh2
+    3300076: neQY:typeMesh3
+    3300078: pCone1
+    3300080: pCone2
+    3300082: pCube1
+    3300084: pCube10
+    3300086: pCube11
+    3300088: pCube12
+    3300090: pCube2
+    3300092: pCube3
+    3300094: pCube4
+    3300096: pCube5
+    3300098: pCube6
+    3300100: pCube7
+    3300102: pCube8
+    3300104: pCube9
+    3300106: SodiumBicar:MASH1_ReproMesh_MeshPart0
+    3300108: SodiumBicar:MASH1_ReproMesh_MeshPart1
+    3300110: SodiumBicar:MASH1_ReproMesh_MeshPart10
+    3300112: SodiumBicar:MASH1_ReproMesh_MeshPart11
+    3300114: SodiumBicar:MASH1_ReproMesh_MeshPart12
+    3300116: SodiumBicar:MASH1_ReproMesh_MeshPart13
+    3300118: SodiumBicar:MASH1_ReproMesh_MeshPart2
+    3300120: SodiumBicar:MASH1_ReproMesh_MeshPart3
+    3300122: SodiumBicar:MASH1_ReproMesh_MeshPart4
+    3300124: SodiumBicar:MASH1_ReproMesh_MeshPart5
+    3300126: SodiumBicar:MASH1_ReproMesh_MeshPart6
+    3300128: SodiumBicar:MASH1_ReproMesh_MeshPart7
+    3300130: SodiumBicar:MASH1_ReproMesh_MeshPart8
+    3300132: SodiumBicar:MASH1_ReproMesh_MeshPart9
+    3300134: SodiumBicar:pCube1_MeshPart0
+    3300136: SodiumBicar:pCube1_MeshPart1
+    3300138: SodiumBicar:pCube1_MeshPart2
+    3300140: SodiumBicar:pCube1_MeshPart3
+    3300142: SodiumBicar:pCube2
+    3300144: SodiumBicar:typeMesh1
+    3300146: typeMesh2
+    3300148: typeMesh3
+    3300150: typeMesh4
+    3300152: typeMesh5
+    4300000: pCube7
+    4300002: pCube8
+    4300004: pCube9
+    4300006: pCube10
+    4300008: pCube11
+    4300010: pCube12
+    4300012: SodiumBicar:typeMesh1
+    4300014: SodiumBicar:MASH1_ReproMesh_MeshPart0
+    4300016: SodiumBicar:MASH1_ReproMesh_MeshPart1
+    4300018: SodiumBicar:MASH1_ReproMesh_MeshPart2
+    4300020: SodiumBicar:MASH1_ReproMesh_MeshPart3
+    4300022: SodiumBicar:MASH1_ReproMesh_MeshPart4
+    4300024: SodiumBicar:MASH1_ReproMesh_MeshPart5
+    4300026: SodiumBicar:MASH1_ReproMesh_MeshPart6
+    4300028: SodiumBicar:MASH1_ReproMesh_MeshPart7
+    4300030: SodiumBicar:MASH1_ReproMesh_MeshPart8
+    4300032: SodiumBicar:MASH1_ReproMesh_MeshPart9
+    4300034: SodiumBicar:MASH1_ReproMesh_MeshPart10
+    4300036: SodiumBicar:MASH1_ReproMesh_MeshPart11
+    4300038: SodiumBicar:MASH1_ReproMesh_MeshPart12
+    4300040: SodiumBicar:MASH1_ReproMesh_MeshPart13
+    4300042: aluminum2:pCube1
+    4300044: typeMesh2
+    4300046: SodiumBicar:pCube2
+    4300048: SodiumBicar:pCube1_MeshPart0
+    4300050: SodiumBicar:pCube1_MeshPart1
+    4300052: SodiumBicar:pCube1_MeshPart2
+    4300054: SodiumBicar:pCube1_MeshPart3
+    4300056: pCube1
+    4300058: pCone2
+    4300060: aluminum2:pSphere2
+    4300062: aluminum2:pCylinder5
+    4300064: typeMesh4
+    4300066: aluminum2:pSphere1
+    4300068: aluminum2:pCylinder4
+    4300070: aluminum2:pCylinder3
+    4300072: aluminum2:typeMesh1
+    4300074: aluminum2:typeMesh2
+    4300076: aluminum2:typeMesh3
+    4300078: pCube2
+    4300080: pCube3
+    4300082: balloon:pSphere1
+    4300084: balloon:pCube1
+    4300086: balloon:MASH1_ReproMesh_MeshPart0
+    4300088: balloon:MASH1_ReproMesh_MeshPart1
+    4300090: balloon:MASH1_ReproMesh_MeshPart2
+    4300092: typeMesh3
+    4300094: neQY:typeMesh2
+    4300096: neQY:typeMesh3
+    4300098: neQY:pCylinder4
+    4300100: neQY:pCylinder3
+    4300102: neQY:pCylinder2
+    4300104: neQY:pCylinder1
+    4300106: neQY:pCube1
+    4300108: neQY:pCylinder4
+    4300110: neQY:pCylinder3
+    4300112: neQY:pCylinder2
+    4300114: neQY:pCylinder1
+    4300116: neQY:pCube1
+    4300118: neQY:pCylinder4
+    4300120: neQY:pCylinder3
+    4300122: neQY:pCylinder2
+    4300124: neQY:pCylinder1
+    4300126: neQY:pCube1
+    4300128: neQY:pCylinder4
+    4300130: neQY:pCylinder3
+    4300132: neQY:pCylinder2
+    4300134: neQY:pCylinder1
+    4300136: neQY:pCube1
+    4300138: pCube4
+    4300140: pCone1
+    4300142: pCube5
+    4300144: Ca_Car2:pCube1
+    4300146: Ca_Car2:pCylinder1
+    4300148: Ca_Car2:pCylinder2
+    4300150: pCube6
+    4300152: typeMesh5
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

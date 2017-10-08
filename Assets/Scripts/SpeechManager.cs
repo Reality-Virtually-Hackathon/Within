@@ -51,19 +51,23 @@ public class SpeechManager : MonoBehaviour
             }
         });
         
-        //This needs to just call the OnCreate method of the selected object
         keywords.Add("Create Lithium", () =>
         {
-            // Should call OnCreate on the Balloon component in the menu
-            GameObject.Find("Lithium Icon").SendMessage("OnCreate");
+            // Should call OnCreate on the Lithum component in the menu
+            GameObject.Find("Menu/Lithium Icon").SendMessage("OnCreate");
         });
 
         keywords.Add("Create Aluminum", () =>
         {
-            // Should call OnCreate on the Sound component in the menu
-            GameObject.Find("Aluminum Icon").SendMessage("OnCreate");
+            // Should call OnCreate on the Aluminum component in the menu
+            GameObject.Find("Menu/Aluminum Icon").SendMessage("OnCreate");
         });
 
+        keywords.Add("Create Potassium", () =>
+        {
+            // Should call OnCreate on the Aluminum component in the menu
+            GameObject.Find("Menu/Potassium Icon").SendMessage("OnCreate");
+        });
 
         // Tell the KeywordRecognizer about our keywords.
         keywordRecognizer = new KeywordRecognizer(keywords.Keys.ToArray());
