@@ -1,73 +1,73 @@
 fileFormatVersion: 2
-guid: 56911f37ee176f94ba93a7363076a26c
-timeCreated: 1507477125
+guid: 9f34aa11f054d1b4e8bacd3ce1274626
+timeCreated: 1507492354
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Lithium:group1
-    100004: Lithium:Hemi
-    100006: Lithium:High_Poly_Round_001
-    100008: Lithium:Lithium
-    100010: Lithium:pCube1
-    100012: Lithium:pCylinder1
-    100014: Lithium:pCylinder2
-    100016: Lithium:pCylinder2 1
-    100018: Lithium:Point
-    100020: Lithium:transform10
-    100022: Lithium:transform11
-    100024: Lithium:transform12
-    100026: Lithium:transform13
-    100028: Lithium:transform14
-    100030: Lithium:transform15
-    100032: Lithium:transform16
-    100034: Lithium:transform17
-    100036: Lithium:transform18
-    100038: Lithium:transform5
-    100040: Lithium:transform6
-    100042: Lithium:transform7
-    100044: Lithium:transform8
-    100046: Lithium:transform9
-    100048: Lithium:typeMesh1
-    100050: Lithium:typeMesh1 1
-    100052: Lithium:typeMesh2
-    100054: Lithium:typeMesh3
-    100056: Lithium:typeMesh4
-    100058: Lithium:typeMesh5
-    400000: //RootNode
-    400002: Lithium:group1
-    400004: Lithium:Hemi
-    400006: Lithium:High_Poly_Round_001
-    400008: Lithium:Lithium
-    400010: Lithium:pCube1
-    400012: Lithium:pCylinder1
-    400014: Lithium:pCylinder2
-    400016: Lithium:pCylinder2 1
-    400018: Lithium:Point
-    400020: Lithium:transform10
-    400022: Lithium:transform11
-    400024: Lithium:transform12
-    400026: Lithium:transform13
-    400028: Lithium:transform14
-    400030: Lithium:transform15
-    400032: Lithium:transform16
-    400034: Lithium:transform17
-    400036: Lithium:transform18
-    400038: Lithium:transform5
-    400040: Lithium:transform6
-    400042: Lithium:transform7
-    400044: Lithium:transform8
-    400046: Lithium:transform9
-    400048: Lithium:typeMesh1
-    400050: Lithium:typeMesh1 1
-    400052: Lithium:typeMesh2
-    400054: Lithium:typeMesh3
-    400056: Lithium:typeMesh4
-    400058: Lithium:typeMesh5
-    2300000: Lithium:typeMesh1
-    3300000: Lithium:typeMesh1
-    4300000: Lithium:typeMesh1
+    100000: group1
+    100002: Hemi
+    100004: High_Poly_Round_001
+    100006: Lithium
+    100008: //RootNode
+    100010: pCube1
+    100012: pCylinder1
+    100014: pCylinder2
+    100016: pCylinder2 1
+    100018: Point
+    100020: transform10
+    100022: transform11
+    100024: transform12
+    100026: transform13
+    100028: transform5
+    100030: transform6
+    100032: transform7
+    100034: transform8
+    100036: transform9
+    100038: typeMesh1
+    100040: typeMesh2
+    100042: typeMesh3
+    100044: typeMesh4
+    100046: typeMesh5
+    400000: group1
+    400002: Hemi
+    400004: High_Poly_Round_001
+    400006: Lithium
+    400008: //RootNode
+    400010: pCube1
+    400012: pCylinder1
+    400014: pCylinder2
+    400016: pCylinder2 1
+    400018: Point
+    400020: transform10
+    400022: transform11
+    400024: transform12
+    400026: transform13
+    400028: transform5
+    400030: transform6
+    400032: transform7
+    400034: transform8
+    400036: transform9
+    400038: typeMesh1
+    400040: typeMesh2
+    400042: typeMesh3
+    400044: typeMesh4
+    400046: typeMesh5
+    2300000: pCube1
+    2300002: typeMesh1
+    2300004: typeMesh2
+    2300006: typeMesh3
+    2300008: typeMesh5
+    3300000: pCube1
+    3300002: typeMesh1
+    3300004: typeMesh2
+    3300006: typeMesh3
+    3300008: typeMesh5
+    4300000: pCube1
+    4300002: typeMesh1
+    4300004: typeMesh2
+    4300006: typeMesh3
+    4300008: typeMesh5
     7400000: Take 001
     9500000: //RootNode
   materials:

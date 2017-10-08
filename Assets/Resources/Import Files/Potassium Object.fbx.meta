@@ -1,58 +1,36 @@
 fileFormatVersion: 2
-guid: ef3a49279d5f88941a987c04678da702
-timeCreated: 1507477129
+guid: 0887d63609baad74ab185271262b9798
+timeCreated: 1507492350
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: Cube.001
-    100002: group1
-    100004: Hemi
-    100006: High_Poly_Round_001
-    100008: Lithium
-    100010: pCube1
-    100012: pCylinder1
-    100014: pCylinder2
-    100016: pCylinder2 1
-    100018: Point
-    100020: //RootNode
-    100022: transform10
-    100024: transform11
-    100026: transform12
-    100028: transform13
-    100030: transform5
-    100032: transform6
-    100034: transform7
-    100036: transform8
-    100038: transform9
-    100040: typeMesh1
-    100042: typeMesh2
-    100044: typeMesh3
-    100046: typeMesh4
+    100002: Hemi
+    100004: pCube1
+    100006: Point
+    100008: Potassium
+    100010: //RootNode
+    100012: transform5
+    100014: transform6
+    100016: transform7
+    100018: transform8
+    100020: typeMesh1
+    100022: typeMesh2
+    100024: typeMesh3
     400000: Cube.001
-    400002: group1
-    400004: Hemi
-    400006: High_Poly_Round_001
-    400008: Lithium
-    400010: pCube1
-    400012: pCylinder1
-    400014: pCylinder2
-    400016: pCylinder2 1
-    400018: Point
-    400020: //RootNode
-    400022: transform10
-    400024: transform11
-    400026: transform12
-    400028: transform13
-    400030: transform5
-    400032: transform6
-    400034: transform7
-    400036: transform8
-    400038: transform9
-    400040: typeMesh1
-    400042: typeMesh2
-    400044: typeMesh3
-    400046: typeMesh4
+    400002: Hemi
+    400004: pCube1
+    400006: Point
+    400008: Potassium
+    400010: //RootNode
+    400012: transform5
+    400014: transform6
+    400016: transform7
+    400018: transform8
+    400020: typeMesh1
+    400022: typeMesh2
+    400024: typeMesh3
     2300000: Cube.001
     2300002: pCube1
     2300004: typeMesh1
@@ -68,7 +46,6 @@ ModelImporter:
     4300004: typeMesh2
     4300006: typeMesh3
     4300008: Cube.001
-    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1

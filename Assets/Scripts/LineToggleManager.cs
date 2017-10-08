@@ -27,6 +27,8 @@ public class LineToggleManager : MonoBehaviour
 
                 line1.materials[0] = Resources.Load("Scripts/Materials/anisotropic1.mat", typeof(Material)) as Material;
                 line1.startColor = Color.blue;
+                GameObject.Find("Lines").GetComponent<LineRenderer>().enabled = false;
+                GameObject.Find("Lines").GetComponent<LineRenderer>().enabled = true;
             }
 
             else

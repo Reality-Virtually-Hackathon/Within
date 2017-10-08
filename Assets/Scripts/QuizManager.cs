@@ -5,27 +5,39 @@ public class QuizManager : MonoBehaviour
     private bool quizOn = false;
 
     // Called by GazeGestureManager when the user performs a Select gesture
-    void OnSelect()
+    void OnSelect() //Need to disable all children mesh renderers, and toggle questionmark
     {
-        GameObject[] objects = GameObject.Find("Object Collection").GetComponentsInChildren<GameObject>();
-        GameObject[] qMarks = GameObject.Find("Quiz Collection").GetComponentsInChildren<GameObject>();
+        //GameObject[] objects = GameObject.Find("Object Collection").GetComponentsInChildren<GameObject>();
+        //GameObject[] qMarks = GameObject.Find("Quiz Collection").GetComponentsInChildren<GameObject>();
+
+        Renderer[] renderers = GameObject.Find("Object Collection").GetComponentsInChildren<Renderer>();
 
         if (!quizOn)
-        {  
-            for (int i = 0; i < objects.Length; i++)
+        {
+            foreach (Renderer child in renderers)
             {
-                objects[0].SetActive(false);
-                qMarks[0].SetActive(true);
+                child.enabled = false;
             }
+
+            for (int i = 0; i < GameObject.Find("Object Collection").transform.childCount; i++)
+            {
+                GameObject.Find("Object Collection").transform.GetChild(i).GetChild(0).GetComponent<Renderer>().enabled = true;
+            }
+            quizOn = true;
         }
 
         else
         {
-            for (int i = 0; i < objects.Length; i++)
+            foreach (Renderer child in renderers)
             {
-                qMarks[0].SetActive(false);
-                objects[0].SetActive(true);
+                child.enabled = true;
             }
+
+            for (int i = 0; i < GameObject.Find("Object Collection").transform.childCount; i++)
+            {
+                GameObject.Find("Object Collection").transform.GetChild(i).GetChild(0).GetComponent<Renderer>().enabled = false;
+            }
+            quizOn = false;
         }
 
     }

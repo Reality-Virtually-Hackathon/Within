@@ -7,6 +7,7 @@ public class ObjectToolsManager : MonoBehaviour
     // Called by GazeGestureManager when the user performs a Select gesture
     void OnSelect()
     {
+        Debug.Log(placing);
 
         // On each Select gesture, toggle whether the user is in placing mode.
         placing = !placing;

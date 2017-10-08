@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: b2978b6a9041e924ea303a46133e1163
+timeCreated: 1507493274
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: aluminum2:pCylinder3
+    100004: aluminum2:pCylinder3 1
+    100006: aluminum2:pCylinder4
+    100008: aluminum2:pCylinder5
+    100010: aluminum2:pSphere1
+    100012: aluminum2:pSphere2
+    100014: aluminum2:transform14
+    100016: aluminum2:transform15
+    100018: aluminum2:transform16
+    100020: aluminum2:transform17
+    100022: aluminum2:transform18
+    100024: aluminum2:transform19
+    100026: aluminum2:transform20
+    100028: aluminum2:transform21
+    100030: aluminum2:transform22
+    100032: aluminum2:transform23
+    100034: aluminum2:transform24
+    100036: balloon:pCube1
+    100038: balloon:pSphere1
+    100040: Ca_Car2:pCube1
+    100042: Ca_Car2:pCylinder1
+    100044: Ca_Car2:pCylinder2
+    100046: Ca_Car2:transform10
+    100048: Ca_Car2:transform11
+    100050: Ca_Car2:transform3
+    100052: Ca_Car2:transform4
+    100054: Ca_Car2:transform5
+    100056: Ca_Car2:transform6
+    100058: Ca_Car2:transform7
+    100060: Ca_Car2:transform8
+    100062: Ca_Car2:transform9
+    100064: Ca_Car2:volumeLight1
+    100066: Ca_Car2:volumeLight1 1
+    100068: group1
+    100070: group10
+    100072: group2
+    100074: group3
+    100076: group4
+    100078: group5
+    100080: group6
+    100082: group7
+    100084: group8
+    100086: group9
+    100088: molecula
+    100090: Molecule:pCylinder11
+    100092: Molecule:pCylinder3
+    100094: Molecule:pCylinder4
+    100096: Molecule:pCylinder6
+    100098: Molecule:pSphere3
+    100100: Molecule:pSphere5
+    100102: Molecule:pSphere7
+    100104: Molecule:pSphere8
+    100106: Molecule:transform5
+    100108: Molecule:transform6
+    100110: Molecule:transform7
+    100112: Molecule:transform8
+    100114: neQY:group1
+    100116: neQY:group2
+    100118: neQY:group2_neQY:pCylinder1
+    100120: neQY:group2_neQY:transform1
+    100122: neQY:group2_neQY:transform10
+    100124: neQY:group2_neQY:transform11
+    100126: neQY:group2_neQY:transform12
+    100128: neQY:group2_neQY:transform13
+    100130: neQY:group2_neQY:transform14
+    100132: neQY:group2_neQY:transform15
+    100134: neQY:group2_neQY:transform16
+    100136: neQY:group2_neQY:transform17
+    100138: neQY:group2_neQY:transform18
+    100140: neQY:group2_neQY:transform19
+    100142: neQY:group2_neQY:transform2
+    100144: neQY:group2_neQY:transform20
+    100146: neQY:group2_neQY:transform21
+    100148: neQY:group2_neQY:transform22
+    100150: neQY:group2_neQY:transform23
+    100152: neQY:group2_neQY:transform24
+    100154: neQY:group2_neQY:transform25
+    100156: neQY:group2_neQY:transform3
+    100158: neQY:group2_neQY:transform4
+    100160: neQY:group2_neQY:transform5
+    100162: neQY:group2_neQY:transform6
+    100164: neQY:group2_neQY:transform7
+    100166: neQY:group2_neQY:transform8
+    100168: neQY:group2_neQY:transform9
+    100170: neQY:group4
+    100172: neQY:group5
+    100174: neQY:pCube1
+    100176: neQY:pCube1 1
+    100178: neQY:pCube1 2
+    100180: neQY:pCube1 3
+    100182: neQY:pCylinder1
+    100184: neQY:pCylinder1 1
+    100186: neQY:pCylinder1 2
+    100188: neQY:pCylinder1 3
+    100190: neQY:pCylinder2
+    100192: neQY:pCylinder2 1
+    100194: neQY:pCylinder2 2
+    100196: neQY:pCylinder2 3
+    100198: neQY:pCylinder3
+    100200: neQY:pCylinder3 1
+    100202: neQY:pCylinder3 2
+    100204: neQY:pCylinder3 3
+    100206: neQY:pCylinder4
+    100208: neQY:pCylinder4 1
+    100210: neQY:pCylinder4 2
+    100212: neQY:pCylinder4 3
+    100214: pCone2
+    100216: pCube1
+    100218: pCube10
+    100220: pCube11
+    100222: pCube12
+    100224: pCube13
+    100226: pCube14
+    100228: pCube15
+    100230: pCube16
+    100232: pCube17
+    100234: pCube18
+    100236: pCube2
+    100238: pCube3
+    100240: pCube4
+    100242: pCube5
+    100244: pCube6
+    100246: pCube7
+    100248: pCube8
+    100250: pCube8 1
+    100252: pCube9
+    100254: Potassium_Object:Cube.001
+    100256: Potassium_Object:Cube.001 1
+    100258: Potassium_Object:Lithium
+    100260: Potassium_Object:pCube1
+    100262: Potassium_Object:transform14
+    100264: Potassium_Object:transform15
+    100266: Potassium_Object:transform16
+    100268: Potassium_Object:transform17
+    100270: Potassium_Object:transform18
+    100272: Potassium_Object:transform19
+    100274: Potassium_Object:transform5
+    100276: Potassium_Object:transform6
+    100278: Potassium_Object:transform7
+    100280: Potassium_Object:transform8
+    100282: Potassium_Object:typeMesh1
+    100284: Potassium_Object:typeMesh2
+    100286: Potassium_Object:typeMesh3
+    100288: QuestionMark:transform5
+    100290: QuestionMark:transform6
+    100292: QuestionMark:transform7
+    100294: QuestionMark:transform8
+    100296: QuestionMark:typeMesh1
+    100298: SodiumBicar:directionalLight1
+    100300: SodiumBicar:directionalLight2
+    100302: SodiumBicar:transform2
+    100304: SodiumBicar:transform3
+    100306: SodiumBicar:transform4
+    100308: SodiumBicar:transform5
+    100310: SodiumBicar:transform6
+    100312: SodiumBicar:transform7
+    100314: SodiumBicar:typeMesh1
+    100316: test_beaker:Mesh
+    100318: test_beaker:Mesh 1
+    100320: test_beaker:transform1
+    100322: test_beaker:transform2
+    100324: trails3:MASH1_ReproMesh
+    100326: trails3:MASH1_ReproMesh1
+    100328: trails3:MASH1_ReproMesh1 1
+    100330: trails3:MASH1_Trails1_Mesh
+    100332: trails3:MASH1_Trails_Mesh2
+    100334: trails3:pCube1
+    100336: trails3:transform1
+    100338: trails3:transform2
+    100340: trails3:transform3
+    100342: trails3:transform4
+    100344: trails3:transform5
+    100346: transform29
+    100348: transform30
+    100350: transform31
+    100352: transform32
+    100354: transform33
+    100356: transform34
+    100358: transform35
+    100360: transform36
+    100362: transform37
+    100364: transform38
+    100366: transform39
+    100368: transform40
+    100370: transform41
+    100372: transform42
+    100374: transform43
+    100376: transform44
+    100378: transform45
+    100380: transform46
+    100382: typeMesh10
+    100384: typeMesh11
+    100386: typeMesh12
+    100388: typeMesh13
+    100390: typeMesh13 1
+    100392: typeMesh14
+    100394: typeMesh15
+    100396: typeMesh16
+    100398: typeMesh17
+    100400: typeMesh18
+    100402: typeMesh2
+    100404: typeMesh4
+    100406: typeMesh5
+    100408: typeMesh6
+    100410: typeMesh7
+    100412: typeMesh8
+    100414: typeMesh9
+    400000: //RootNode
+    400002: aluminum2:pCylinder3
+    400004: aluminum2:pCylinder3 1
+    400006: aluminum2:pCylinder4
+    400008: aluminum2:pCylinder5
+    400010: aluminum2:pSphere1
+    400012: aluminum2:pSphere2
+    400014: aluminum2:transform14
+    400016: aluminum2:transform15
+    400018: aluminum2:transform16
+    400020: aluminum2:transform17
+    400022: aluminum2:transform18
+    400024: aluminum2:transform19
+    400026: aluminum2:transform20
+    400028: aluminum2:transform21
+    400030: aluminum2:transform22
+    400032: aluminum2:transform23
+    400034: aluminum2:transform24
+    400036: balloon:pCube1
+    400038: balloon:pSphere1
+    400040: Ca_Car2:pCube1
+    400042: Ca_Car2:pCylinder1
+    400044: Ca_Car2:pCylinder2
+    400046: Ca_Car2:transform10
+    400048: Ca_Car2:transform11
+    400050: Ca_Car2:transform3
+    400052: Ca_Car2:transform4
+    400054: Ca_Car2:transform5
+    400056: Ca_Car2:transform6
+    400058: Ca_Car2:transform7
+    400060: Ca_Car2:transform8
+    400062: Ca_Car2:transform9
+    400064: Ca_Car2:volumeLight1
+    400066: Ca_Car2:volumeLight1 1
+    400068: group1
+    400070: group10
+    400072: group2
+    400074: group3
+    400076: group4
+    400078: group5
+    400080: group6
+    400082: group7
+    400084: group8
+    400086: group9
+    400088: molecula
+    400090: Molecule:pCylinder11
+    400092: Molecule:pCylinder3
+    400094: Molecule:pCylinder4
+    400096: Molecule:pCylinder6
+    400098: Molecule:pSphere3
+    400100: Molecule:pSphere5
+    400102: Molecule:pSphere7
+    400104: Molecule:pSphere8
+    400106: Molecule:transform5
+    400108: Molecule:transform6
+    400110: Molecule:transform7
+    400112: Molecule:transform8
+    400114: neQY:group1
+    400116: neQY:group2
+    400118: neQY:group2_neQY:pCylinder1
+    400120: neQY:group2_neQY:transform1
+    400122: neQY:group2_neQY:transform10
+    400124: neQY:group2_neQY:transform11
+    400126: neQY:group2_neQY:transform12
+    400128: neQY:group2_neQY:transform13
+    400130: neQY:group2_neQY:transform14
+    400132: neQY:group2_neQY:transform15
+    400134: neQY:group2_neQY:transform16
+    400136: neQY:group2_neQY:transform17
+    400138: neQY:group2_neQY:transform18
+    400140: neQY:group2_neQY:transform19
+    400142: neQY:group2_neQY:transform2
+    400144: neQY:group2_neQY:transform20
+    400146: neQY:group2_neQY:transform21
+    400148: neQY:group2_neQY:transform22
+    400150: neQY:group2_neQY:transform23
+    400152: neQY:group2_neQY:transform24
+    400154: neQY:group2_neQY:transform25
+    400156: neQY:group2_neQY:transform3
+    400158: neQY:group2_neQY:transform4
+    400160: neQY:group2_neQY:transform5
+    400162: neQY:group2_neQY:transform6
+    400164: neQY:group2_neQY:transform7
+    400166: neQY:group2_neQY:transform8
+    400168: neQY:group2_neQY:transform9
+    400170: neQY:group4
+    400172: neQY:group5
+    400174: neQY:pCube1
+    400176: neQY:pCube1 1
+    400178: neQY:pCube1 2
+    400180: neQY:pCube1 3
+    400182: neQY:pCylinder1
+    400184: neQY:pCylinder1 1
+    400186: neQY:pCylinder1 2
+    400188: neQY:pCylinder1 3
+    400190: neQY:pCylinder2
+    400192: neQY:pCylinder2 1
+    400194: neQY:pCylinder2 2
+    400196: neQY:pCylinder2 3
+    400198: neQY:pCylinder3
+    400200: neQY:pCylinder3 1
+    400202: neQY:pCylinder3 2
+    400204: neQY:pCylinder3 3
+    400206: neQY:pCylinder4
+    400208: neQY:pCylinder4 1
+    400210: neQY:pCylinder4 2
+    400212: neQY:pCylinder4 3
+    400214: pCone2
+    400216: pCube1
+    400218: pCube10
+    400220: pCube11
+    400222: pCube12
+    400224: pCube13
+    400226: pCube14
+    400228: pCube15
+    400230: pCube16
+    400232: pCube17
+    400234: pCube18
+    400236: pCube2
+    400238: pCube3
+    400240: pCube4
+    400242: pCube5
+    400244: pCube6
+    400246: pCube7
+    400248: pCube8
+    400250: pCube8 1
+    400252: pCube9
+    400254: Potassium_Object:Cube.001
+    400256: Potassium_Object:Cube.001 1
+    400258: Potassium_Object:Lithium
+    400260: Potassium_Object:pCube1
+    400262: Potassium_Object:transform14
+    400264: Potassium_Object:transform15
+    400266: Potassium_Object:transform16
+    400268: Potassium_Object:transform17
+    400270: Potassium_Object:transform18
+    400272: Potassium_Object:transform19
+    400274: Potassium_Object:transform5
+    400276: Potassium_Object:transform6
+    400278: Potassium_Object:transform7
+    400280: Potassium_Object:transform8
+    400282: Potassium_Object:typeMesh1
+    400284: Potassium_Object:typeMesh2
+    400286: Potassium_Object:typeMesh3
+    400288: QuestionMark:transform5
+    400290: QuestionMark:transform6
+    400292: QuestionMark:transform7
+    400294: QuestionMark:transform8
+    400296: QuestionMark:typeMesh1
+    400298: SodiumBicar:directionalLight1
+    400300: SodiumBicar:directionalLight2
+    400302: SodiumBicar:transform2
+    400304: SodiumBicar:transform3
+    400306: SodiumBicar:transform4
+    400308: SodiumBicar:transform5
+    400310: SodiumBicar:transform6
+    400312: SodiumBicar:transform7
+    400314: SodiumBicar:typeMesh1
+    400316: test_beaker:Mesh
+    400318: test_beaker:Mesh 1
+    400320: test_beaker:transform1
+    400322: test_beaker:transform2
+    400324: trails3:MASH1_ReproMesh
+    400326: trails3:MASH1_ReproMesh1
+    400328: trails3:MASH1_ReproMesh1 1
+    400330: trails3:MASH1_Trails1_Mesh
+    400332: trails3:MASH1_Trails_Mesh2
+    400334: trails3:pCube1
+    400336: trails3:transform1
+    400338: trails3:transform2
+    400340: trails3:transform3
+    400342: trails3:transform4
+    400344: trails3:transform5
+    400346: transform29
+    400348: transform30
+    400350: transform31
+    400352: transform32
+    400354: transform33
+    400356: transform34
+    400358: transform35
+    400360: transform36
+    400362: transform37
+    400364: transform38
+    400366: transform39
+    400368: transform40
+    400370: transform41
+    400372: transform42
+    400374: transform43
+    400376: transform44
+    400378: transform45
+    400380: transform46
+    400382: typeMesh10
+    400384: typeMesh11
+    400386: typeMesh12
+    400388: typeMesh13
+    400390: typeMesh13 1
+    400392: typeMesh14
+    400394: typeMesh15
+    400396: typeMesh16
+    400398: typeMesh17
+    400400: typeMesh18
+    400402: typeMesh2
+    400404: typeMesh4
+    400406: typeMesh5
+    400408: typeMesh6
+    400410: typeMesh7
+    400412: typeMesh8
+    400414: typeMesh9
+    2300000: aluminum2:pCylinder3
+    2300002: Ca_Car2:volumeLight1
+    2300004: neQY:group2_neQY:pCylinder1
+    2300006: pCube10
+    2300008: pCube18
+    2300010: pCube8
+    2300012: pCube9
+    2300014: Potassium_Object:Cube.001
+    2300016: SodiumBicar:directionalLight2
+    2300018: test_beaker:Mesh
+    2300020: trails3:MASH1_ReproMesh1
+    2300022: trails3:pCube1
+    2300024: typeMesh13
+    3300000: aluminum2:pCylinder3
+    3300002: Ca_Car2:volumeLight1
+    3300004: neQY:group2_neQY:pCylinder1
+    3300006: pCube10
+    3300008: pCube18
+    3300010: pCube8
+    3300012: pCube9
+    3300014: Potassium_Object:Cube.001
+    3300016: SodiumBicar:directionalLight2
+    3300018: test_beaker:Mesh
+    3300020: trails3:MASH1_ReproMesh1
+    3300022: trails3:pCube1
+    3300024: typeMesh13
+    4300000: pCube9
+    4300002: pCube10
+    4300004: SodiumBicar:directionalLight2
+    4300006: trails3:pCube1
+    4300008: aluminum2:pCylinder3
+    4300010: typeMesh13
+    4300012: neQY:group2_neQY:pCylinder1
+    4300014: Potassium_Object:Cube.001
+    4300016: Ca_Car2:volumeLight1
+    4300018: test_beaker:Mesh
+    4300020: pCube8
+    4300022: pCube18
+    4300024: trails3:MASH1_ReproMesh1
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

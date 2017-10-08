@@ -1,77 +1,54 @@
 fileFormatVersion: 2
-guid: 740da3bc1f6983041afa408fd918f3e9
-timeCreated: 1507477126
+guid: 92ec6fc2a44a62f449fcd54cfde04db3
+timeCreated: 1507492352
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: balloon:pCube1
     100002: balloon:pSphere1
-    100004: balloon:pSphere1 1
-    100006: balloon:transform1
-    100008: balloon:transform2
-    100010: balloon:transform3
-    100012: balloon:transform4
-    100014: group1
-    100016: group3
-    100018: //RootNode
-    100020: Hemi
-    100022: High_Poly_Round_001
-    100024: Lithium
-    100026: pCube1
-    100028: pCylinder1
-    100030: pCylinder2
-    100032: pCylinder2 1
-    100034: Point
-    100036: transform10
-    100038: transform11
-    100040: transform12
-    100042: transform13
-    100044: transform5
-    100046: transform6
-    100048: transform7
-    100050: transform8
-    100052: transform9
-    100054: typeMesh1
-    100056: typeMesh2
-    100058: typeMesh4
+    100004: balloon:transform1
+    100006: balloon:transform2
+    100008: balloon:transform3
+    100010: balloon:transform4
+    100012: group3
+    100014: Helium
+    100016: //RootNode
+    100018: Hemi
+    100020: Lithium
+    100022: pCube1
+    100024: Point
+    100026: transform5
+    100028: transform6
+    100030: transform7
+    100032: transform8
+    100034: typeMesh1
+    100036: typeMesh2
     400000: balloon:pCube1
     400002: balloon:pSphere1
-    400004: balloon:pSphere1 1
-    400006: balloon:transform1
-    400008: balloon:transform2
-    400010: balloon:transform3
-    400012: balloon:transform4
-    400014: group1
-    400016: group3
-    400018: //RootNode
-    400020: Hemi
-    400022: High_Poly_Round_001
-    400024: Lithium
-    400026: pCube1
-    400028: pCylinder1
-    400030: pCylinder2
-    400032: pCylinder2 1
-    400034: Point
-    400036: transform10
-    400038: transform11
-    400040: transform12
-    400042: transform13
-    400044: transform5
-    400046: transform6
-    400048: transform7
-    400050: transform8
-    400052: transform9
-    400054: typeMesh1
-    400056: typeMesh2
-    400058: typeMesh4
+    400004: balloon:transform1
+    400006: balloon:transform2
+    400008: balloon:transform3
+    400010: balloon:transform4
+    400012: group3
+    400014: Helium
+    400016: //RootNode
+    400018: Hemi
+    400020: Lithium
+    400022: pCube1
+    400024: Point
+    400026: transform5
+    400028: transform6
+    400030: transform7
+    400032: transform8
+    400034: typeMesh1
+    400036: typeMesh2
     2300000: balloon:pCube1
-    2300002: balloon:pSphere1
+    2300002: Helium
     3300000: balloon:pCube1
-    3300002: balloon:pSphere1
-    4300000: balloon:pCube1
-    4300002: balloon:pSphere1
-    7400000: Take 001
+    3300002: Helium
+    4300000: Helium
+    4300002: balloon:pCube1
     9500000: //RootNode
   materials:
     importMaterials: 1
