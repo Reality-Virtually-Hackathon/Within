@@ -49,6 +49,14 @@ public class TapToPlace : MonoBehaviour
                 toQuat.z = 0;
                 gameObject.transform.rotation = toQuat;
             }
+            LineToggleManager.recalculateLines();
         }
     }
+
+    /*
+    void LateUpdate()
+    {
+        LineToggleManager.OnCreate();
+    }
+    */
 }

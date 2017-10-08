@@ -31,7 +31,7 @@ public class SpeechManager : MonoBehaviour
             }
         });
 
-        keywords.Add("Annotate", () =>
+        keywords.Add("Testing", () =>
         {
             var focusObject = GazeGestureManager.Instance.FocusedObject;
             if (focusObject != null)
@@ -67,6 +67,12 @@ public class SpeechManager : MonoBehaviour
         {
             // Should call OnCreate on the Aluminum component in the menu
             GameObject.Find("Menu/Potassium Icon").SendMessage("OnCreate");
+        });
+
+        keywords.Add("Show lines", () =>
+        {
+            // Should call OnCreate on the Aluminum component in the menu
+            GameObject.Find("Menu/LineManager").SendMessage("OnCreate");
         });
 
         // Tell the KeywordRecognizer about our keywords.

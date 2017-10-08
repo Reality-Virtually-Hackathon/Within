@@ -5,17 +5,23 @@ public class LineToggleManager : MonoBehaviour
     private bool lineOn = false;
 
     // Called by GazeGestureManager when the user performs a Select gesture
-    void OnSelect()
+    private void OnSelect()
     {
+
         if (!lineOn)
         {
+            GameObject parent = GameObject.Find("Object Collection");
             if (GameObject.Find("Lines") == false)
             {
                 GameObject line2 = new GameObject("Lines", typeof(LineRenderer));
                 LineRenderer line1 = line2.GetComponent<LineRenderer>();
-                Vector3[] points = new[] { GameObject.Find("Aluminum Object(Clone)").transform.position, GameObject.Find("Lithium Object(Clone)").transform.position, GameObject.Find("Potassium Object(Clone)").transform.position };
-                line1.positionCount = 3;
-                line1.SetPositions(points);
+
+                line1.positionCount = parent.transform.childCount;
+                for (int i = 0; i < parent.transform.childCount; i++)
+                { 
+                    line1.SetPosition(i, parent.transform.GetChild(i).position);
+                }
+                
                 line1.startWidth = 0.04f;
                 line1.endWidth = 0.04f;
 
@@ -25,6 +31,7 @@ public class LineToggleManager : MonoBehaviour
 
             else
             {
+                recalculateLines();
                 GameObject.Find("Lines").GetComponent<LineRenderer>().enabled = true;
             }
 
@@ -34,6 +41,7 @@ public class LineToggleManager : MonoBehaviour
         else
         {
             GameObject.Find("Lines").GetComponent<LineRenderer>().enabled = false;
+            lineOn = false;
         }      
                 
     }
@@ -43,5 +51,24 @@ public class LineToggleManager : MonoBehaviour
     {
         // Just do the same logic as a Select gesture.
         OnSelect();
+    }
+
+    public static void recalculateLines()
+    {
+        GameObject.Find("Lines").GetComponent<LineRenderer>().enabled = false;
+        GameObject parent = GameObject.Find("Object Collection");
+        LineRenderer line1 = GameObject.Find("Lines").GetComponent<LineRenderer>();
+
+        line1.positionCount = parent.transform.childCount;
+        for (int i = 0; i < parent.transform.childCount; i++)
+        {
+            line1.SetPosition(i, parent.transform.GetChild(i).position);
+        }
+
+        line1.startWidth = 0.04f;
+        line1.endWidth = 0.04f;
+
+        line1.materials[0] = Resources.Load("Scripts/Materials/anisotropic1.mat", typeof(Material)) as Material;
+        line1.startColor = Color.blue;
     }
 }

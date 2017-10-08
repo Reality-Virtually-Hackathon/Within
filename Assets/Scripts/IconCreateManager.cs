@@ -41,6 +41,7 @@ public class IconCreateManager : MonoBehaviour
 
         else
         {
+            return;
             Debug.Log("Object found!!");
             if (selectedObject.activeSelf)
             {                 
