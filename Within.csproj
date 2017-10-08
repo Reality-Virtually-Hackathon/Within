@@ -91,6 +91,7 @@
     <Compile Include="Assets\Scripts\CreateSound.cs" />
     <Compile Include="Assets\Scripts\GazeGestureManager.cs" />
     <Compile Include="Assets\Scripts\IconCreateManager.cs" />
+    <Compile Include="Assets\Scripts\LineToggleManager.cs" />
     <Compile Include="Assets\Scripts\ObjectToolsManager.cs" />
     <Compile Include="Assets\Scripts\SpeechManager.cs" />
     <Compile Include="Assets\Scripts\SphereCommands.cs" />

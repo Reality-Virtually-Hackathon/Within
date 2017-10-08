@@ -14,7 +14,7 @@ public class TapToPlace : MonoBehaviour
         // If the user is in placing mode, display the spatial mapping mesh.
         if (placing)
         {
-            SpatialMapping.Instance.DrawVisualMeshes = true;
+            SpatialMapping.Instance.DrawVisualMeshes = false;
         }
         // If the user is not in placing mode, hide the spatial mapping mesh.
         else
@@ -37,7 +37,7 @@ public class TapToPlace : MonoBehaviour
 
             RaycastHit hitInfo;
             if (Physics.Raycast(headPosition, gazeDirection, out hitInfo,
-                1f, SpatialMapping.PhysicsRaycastMask))
+                3f, SpatialMapping.PhysicsRaycastMask))
             {
                 // Move this object's parent object to
                 // where the raycast hit the Spatial Mapping mesh.

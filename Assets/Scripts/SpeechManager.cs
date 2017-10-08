@@ -31,6 +31,16 @@ public class SpeechManager : MonoBehaviour
             }
         });
 
+        keywords.Add("Annotate", () =>
+        {
+            var focusObject = GazeGestureManager.Instance.FocusedObject;
+            if (focusObject != null)
+            {
+                // Call the OnAnnotate method on just the focused object.
+                focusObject.SendMessage("OnAnnotate", SendMessageOptions.DontRequireReceiver);
+            }
+        });
+
         keywords.Add("Delete Object", () =>
         {
             var focusObject = GazeGestureManager.Instance.FocusedObject;
@@ -40,19 +50,18 @@ public class SpeechManager : MonoBehaviour
                 focusObject.SendMessage("OnDelete", SendMessageOptions.DontRequireReceiver);
             }
         });
-
-
+        
         //This needs to just call the OnCreate method of the selected object
-        keywords.Add("Create Balloon", () =>
+        keywords.Add("Create Lithium", () =>
         {
             // Should call OnCreate on the Balloon component in the menu
-            GameObject.Find("Balloon Icon").SendMessage("OnCreate");
+            GameObject.Find("Lithium Icon").SendMessage("OnCreate");
         });
 
-        keywords.Add("Create Sound", () =>
+        keywords.Add("Create Aluminum", () =>
         {
             // Should call OnCreate on the Sound component in the menu
-            GameObject.Find("Sound Icon").SendMessage("OnCreate");
+            GameObject.Find("Aluminum Icon").SendMessage("OnCreate");
         });
 
 

@@ -5,6 +5,7 @@ public class IconCreateManager : MonoBehaviour
     Vector3 originalPosition;
     string objName;
     GameObject selectedObject;
+    Bounds _bounds;
 
     // Use this for initialization
     void Start()
@@ -23,12 +24,17 @@ public class IconCreateManager : MonoBehaviour
             Instantiate(Resources.Load(objName + " Object"));
             selectedObject = GameObject.Find(objName + " Object(Clone)");
             selectedObject.AddComponent<TapToPlace>();
-            selectedObject.AddComponent<BoxCollider>();
-            selectedObject.transform.position = Camera.main.transform.forward;
+            BoxCollider collider = selectedObject.AddComponent<BoxCollider>();
+            collider.center = _bounds.center;
+            collider.size = new Vector3(0.1f,0.1f,0.1f);
+            Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward, Color.red);
+            selectedObject.transform.position = Camera.main.transform.forward/2;
+            selectedObject.transform.parent = GameObject.Find("Menu").transform;
         }
 
         else
         {
+            Destroy(selectedObject);
             selectedObject.SetActive(false);
         }
 
@@ -39,5 +45,21 @@ public class IconCreateManager : MonoBehaviour
     {
         // Just do the same logic as a Select gesture.
         OnSelect();
+    }
+
+    void OnAnnotate()
+    {
+        // Just do the same logic as a Select gesture.
+        Debug.Log("IT WORKS");
+    }
+
+    void calculateBounds()
+    {
+        _bounds = new Bounds(selectedObject.transform.position, Vector3.zero);
+        Renderer[] renderers = selectedObject.GetComponentsInChildren<Renderer>();
+        foreach (Renderer child in renderers)
+        {
+            _bounds.Encapsulate(child.bounds);
+        }
     }
 }

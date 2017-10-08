@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 812427787}
   - component: {fileID: 812427786}
   m_Layer: 0
-  m_Name: ShelvesTest3
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -801,7 +801,7 @@ Animator:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 812427785}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: de8d5e4d6a9c6eb4f8a723a764ea3680, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -1209,6 +1209,8 @@ GameObject:
   - component: {fileID: 1246417158}
   - component: {fileID: 1246417160}
   - component: {fileID: 1246417159}
+  - component: {fileID: 1246417162}
+  - component: {fileID: 1246417161}
   m_Layer: 0
   m_Name: pCube12
   m_TagString: Untagged
@@ -1270,6 +1272,29 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1246417157}
   m_Mesh: {fileID: 4300022, guid: de8d5e4d6a9c6eb4f8a723a764ea3680, type: 3}
+--- !u!114 &1246417161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246417157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a95803cac447541b3d039305f30758, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1246417162
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1246417157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.009999999, y: 0.01, z: 0.01}
+  m_Center: {x: 0, y: 0, z: -0.0000000037252903}
 --- !u!1 &1519029173
 GameObject:
   m_ObjectHideFlags: 0
